@@ -368,4 +368,3 @@ spring.datasource.password=VOTRE_MOT_DE_PASSE
 ⚠️ **Sécurité** : Ne pas commiter le mot de passe. Utiliser une variable d'environnement :
 ```properties
 spring.datasource.password=${MYSQL_PASSWORD}
-```
