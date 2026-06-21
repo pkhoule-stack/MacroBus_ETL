@@ -1,0 +1,32 @@
+### Vue ensemble (KPIs globaux)
+GET http://localhost:8080/api/analytics/vue-ensemble
+
+### CA par commercial
+GET http://localhost:8080/api/analytics/ca-par-commercial
+
+### CA par catégorie de produit
+GET http://localhost:8080/api/analytics/ca-par-categorie
+
+### Nombre et montant total des commandes par territoire
+GET http://localhost:8080/api/analytics/ca-par-territoire
+
+### CA par période (mois)
+GET http://localhost:8080/api/analytics/ca-par-periode
+
+### CA par filiale
+GET http://localhost:8080/api/analytics/ca-par-filiale
+
+### Top 5 vehicules les plus vendus
+GET http://localhost:8080/api/analytics/top-vehicules?limit=5
+
+### Top 2 commerciaux avec le plus de commandes
+GET http://localhost:8080/api/analytics/top-commerciaux?limit=2
+
+### Performances des commerciaux
+GET http://localhost:8080/api/analytics/performances-commerciaux
+
+### Évolution mensuelle des ventes
+GET http://localhost:8080/api/analytics/evolution-mensuelle
+
+### Déclencher l'ETL manuellement
+POST http://localhost:8080/api/etl/run
